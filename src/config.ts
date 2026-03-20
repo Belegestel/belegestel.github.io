@@ -26,6 +26,7 @@ export const siteConfig = {
       description:
         "Visualized 4-dimensional hyper-geometry by abstracting classic Minesweeper logic. Optimized for the web using Rust and WebAssembly, ensuring near-native performance directly in the browser.",
       link: "https://github.com/Belegestel/4d-minesweeper",
+      game: "https://belegestel.github.io/4d-minesweeper/",
       skills: ["Rust", "WASM", "egui", "Web"],
     },
     {
