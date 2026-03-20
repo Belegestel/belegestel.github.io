@@ -24,9 +24,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                 return (
                   <div class="group relative block p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1">
                     
-                    {/* Vertical Link Stack (Top Right) */}
                     <div class="absolute top-4 right-4 sm:top-6 sm:right-6 md:top-8 md:right-8 flex flex-col gap-3">
-                      {/* GitHub Link */}
                       {project.link && (
                         <a 
                           href={project.link} 
@@ -41,27 +39,27 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                         </a>
                       )}
                       
-                      {/* PyPi Link */}
                       {project.pypi && (
                         <a 
                           href={project.pypi} 
                           target="_blank" 
                           rel="noopener noreferrer"
                           title="View on PyPi"
-                          class="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-blue-600 rounded-full text-white transition-all duration-300 hover:bg-blue-500 hover:scale-110 shadow-md"
+                          class="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center rounded-full text-white transition-all duration-300 hover:opacity-80 hover:scale-110 shadow-md"
+                          style={{ backgroundColor: siteConfig.accentColor }}
                         >
                           <span class="text-[10px] font-bold">PyPi</span>
                         </a>
                       )}
 
-                      {/* Game/Demo Link */}
                       {project.game && (
                         <a 
                           href={project.game} 
                           target="_blank" 
                           rel="noopener noreferrer"
                           title="Play Game"
-                          class="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center bg-green-600 rounded-full text-white transition-all duration-300 hover:bg-green-500 hover:scale-110 shadow-md"
+                          class="w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 flex items-center justify-center rounded-full text-white transition-all duration-300 hover:opacity-80 hover:scale-110 shadow-md"
+                          style={{ backgroundColor: siteConfig.accentColor }}
                         >
                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
