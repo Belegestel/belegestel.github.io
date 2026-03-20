@@ -1,41 +1,56 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Wojciech Dudziński",
+  title: "3rd year AI student",
+  description: "Portfolio website of Wojciech Dudziński",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    linkedin: "https://www.linkedin.com/in/wojciech-dudzinski-9999423b1/",
+    github: "https://github.com/Belegestel",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I am a multi-disciplinary Software Engineer with a deep focus on Deep Learning and Data Science. My work spans the entire stack—from training U-Net architectures for image segmentation to engineering high-performance systems in Rust and C++. I thrive on technical variety, whether I'm designing custom Domain-Specific Languages, optimizing real-time telemetry via UDP, or compiling complex logic to WebAssembly. I don’t just build models; I build the robust, scalable environments they live in.",
+  skills: ["Python", "C#", "C++", "C", "Java", "Rust", "SQL", "Javascript", "CSS", "HTML",
+          "numpy", "pandas", "scikit-learn", "matplotlib", "seaborn", "tensorflow", "torch", 
+           "git", "docker", "jupyter notebook", "linux", "blender", "GIMP", "vim"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "pyXPUDP",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "High-performance, multithreaded UDP networking library for flight simulator X-Plane 12, currently published on PyPi. The library facilitates real-time telemetry exchange via UDP, providing a robust and efficient interface to remotely execute commands, read and set simulation parameters.",
+      link: "https://github.com/Belegestel/pyXPUDP",
+      pypi: "https://pypi.org/project/pyXPUDP/",
+      skills: ["Python", "UDP", "PyPi"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "4D Minesweeper",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Visualized 4-dimensional hyper-geometry by abstracting classic Minesweeper logic. Optimized for the web using Rust and WebAssembly, ensuring near-native performance directly in the browser.",
+      link: "https://github.com/Belegestel/4d-minesweeper",
+      skills: ["Rust", "WASM", "egui", "Web"],
     },
     {
-      name: "ExtensionKit",
+      name: "People - Image Segmentation",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "End-to-end computer vision pipeline using a U-Net CNN architecture. The project covers the full ML lifecycle: from data augmentation and training in PyTorch to deploying a functional interface via Streamlit for real-time human segmentation.",
+      link: "https://github.com/Belegestel/PeopleSegmentation",
+      skills: ["Python", "Deep learning", "torch", "streamlit", "Jupyter Notebook", "Computer Vision"],
+    },
+    {
+      name: "Game Tracking",
+      description:
+        "automated spatial analysis engine using OpenCV to track board game states in real-time. By mapping visual coordinates from a camera feed into logical game data, the system dynamically evaluates player positions and automates scoring for complex physical board layouts.",
+      link: "https://github.com/Belegestel/GameTracking",
+      skills: ["Python", "OpenCV", "Jupyter Notebook"],
+    },
+    {
+      name: "Checklist App",
+      description:
+        "A Rust program for managing, displaying and completing dynamnic checklists. Utilizes a specifically designed custom Domain-Specific Language (DSL) to handle complex, nested conditional logic.",
+      link: "https://github.com/Belegestel/checklist-app",
+      skills: ["Rust", "egui"],
     },
   ],
-  experience: [
+ /* experience: [
     {
       company: "Tech Company",
       title: "Senior Software Engineer",
@@ -66,26 +81,20 @@ export const siteConfig = {
         "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
-  ],
+  ],*/
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "VIII High School in Poznań",
+      // degree: "Bachelor of Science in Computer Science",
+      dateRange: "2019 - 2023",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Poznań University of Technology",
+      // degree: "Full Stack Development Certificate",
+      dateRange: "2023",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
       ],
     },
   ],
