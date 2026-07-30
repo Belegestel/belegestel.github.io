@@ -13,6 +13,7 @@ export const siteConfig = {
           "numpy", "pandas", "scikit-learn", "matplotlib", "seaborn", "tensorflow", "torch", 
            "git", "docker", "jupyter notebook", "linux", "blender", "GIMP", "vim"],
   projects: [
+    
     {
       name: "pyXPUDP",
       description:
@@ -28,6 +29,13 @@ export const siteConfig = {
       link: "https://github.com/Belegestel/4d-minesweeper",
       game: "https://belegestel.github.io/4d-minesweeper/",
       skills: ["Rust", "WASM", "egui", "Web"],
+    },
+    {
+      name: "Trip scheduler",
+      description:
+        "A multi-objective trip planner that generates Pareto-optimal itineraries by balancing total daily travel time against the number of optional attractions visited.",
+      link: "https://github.com/Belegestel/pyXPUDP",
+      skills: ["Python", "Rust", "TSP", "Multithreading"],
     },
     {
       name: "People - Image Segmentation",
