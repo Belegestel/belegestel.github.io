@@ -34,8 +34,8 @@ export const siteConfig = {
       name: "Trip scheduler",
       description:
         "A multi-objective trip planner that generates Pareto-optimal itineraries by balancing total daily travel time against the number of optional attractions visited.",
-      link: "https://github.com/Belegestel/pyXPUDP",
-      skills: ["Python", "Rust", "TSP", "Multithreading"],
+      link: "https://github.com/Belegestel/trip-scheduler",
+      skills: ["Rust", "Python", "NP-hard", "Multithreading"],
     },
     {
       name: "People - Image Segmentation",
