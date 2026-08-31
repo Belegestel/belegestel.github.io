@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Wojciech Dudziński",
-  title: "3rd year AI student",
+  title: "4th year AI student",
   description: "Portfolio website of Wojciech Dudziński",
   accentColor: "#1d4ed8",
   social: {
