@@ -11,7 +11,7 @@ export const siteConfig = {
     "I am a multi-disciplinary Software Engineer with a deep focus on Deep Learning and Data Science. My work spans the entire stack—from training U-Net architectures for image segmentation to engineering high-performance systems in Rust and C++. I thrive on technical variety, whether I'm designing custom Domain-Specific Languages, optimizing real-time telemetry via UDP, or compiling complex logic to WebAssembly. I don’t just build models; I build the robust, scalable environments they live in.",
   skills: ["Python", "C#", "C++", "C", "Java", "Rust", "SQL", "Javascript", "CSS", "HTML",
           "numpy", "pandas", "scikit-learn", "matplotlib", "seaborn", "tensorflow", "torch", 
-           "git", "docker", "jupyter notebook", "linux", "blender", "GIMP", "vim"],
+           "git", "docker", "jupyter notebook", "linux", "blender", "GIMP", "vim", "React", "NestJS"],
   projects: [
     
     {
